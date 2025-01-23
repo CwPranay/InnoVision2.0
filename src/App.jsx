@@ -139,12 +139,11 @@ Disclaimer: These rules and regulations are subject to change at the discretion 
 
 10.The judge's decision will be final and binding.` },
     6: { title: "FUN FUSION", title2:"General Rules",GenerelRules:`
-- 3 levels game with various 1-minute gameplay activities
-- Complete activities within time limit to progress
-- Earn points based on difficulty and time
-- Player with highest total points wins
-- 10-point penalty for incomplete activities
-- Disqualification for cheating or unsportsmanlike behavior` },
+1. Each participant competes individually, aiming to complete the given activity within the time limit.  
+2. The event consists of 3 elimination-based rounds, progressing in difficulty.  
+3. Cheating or unsportsmanlike conduct will result in immediate disqualification.  
+4. The organizer's decision is final and cannot be challenged.  
+5. Participants must follow all instructions and complete tasks fairly to qualify for the next round.` },
     7: { title: "TREASURE FUSION", title2:"General Rules",GenerelRules:`1.Only duo entries will be considered.
 2.There will be 3 rounds
 3.Participants must have internet access and required devices.  
