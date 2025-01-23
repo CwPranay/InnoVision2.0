@@ -1,32 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-
-
-.bg-video{
-  
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right:0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-
+::-webkit-scrollbar {
+  width: 8px; 
 }
-.overlay {
-  position: absolute;
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00ffff, #005f5f); 
+  border-radius: 8px; 
+  border: 2px solid rgba(0, 0, 0, 0.8); 
+  background-clip: content-box; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00ffff, #009393);
+}
+* {
+  box-sizing: border-box;
+}
+
+.swiper {
+  overflow: hidden;
+   
+  padding: 0;
+  margin: 0;
+}
+
+.secondPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow-y: auto; 
+}
+
+
+body {
+  scrollbar-color: #00ffff rgba(0, 0, 0, 0.8); 
+  scrollbar-width: thin; 
+    overflow-y: auto;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  width: 100%; 
+  
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+.relative {
+  overflow: hidden; 
+}
+
+
+.kanit-semibold {
+  font-family: "Kanit", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.smooch-sans {
+  font-family: "Smooch Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bg-video {
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.6; 
+  width: 100vw;
+  height: 100vh; 
+  object-fit: cover; 
   z-index: -1; 
+  overflow: hidden;
+}
+
+.overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 0; 
 }
 .typing-heading {
   display: inline-block;
@@ -35,6 +107,7 @@
   border-right: 2px solid #fff;
   text-align: center;
   animation: typing 8s steps(40, end) infinite, blink 0.6s step-end infinite alternate;
+  z-index: 1;
 }
 
 @keyframes typing {
@@ -57,3 +130,60 @@
     border-color: #fff;
   }
 }
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.swipe-up-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.swipe-up-text {
+  font-size: 1.5rem;
+  color: #ffffff;
+  animation: slide-up 1.5s infinite;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.swipe-up-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 20; 
+}
+
+.scrollable-container {
+  height: calc(100vh - 10rem); 
+  overflow-y: auto;
+  padding: 1rem;
+}
+
