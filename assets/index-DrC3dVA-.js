@@ -114,9 +114,9 @@ Error generating stack: `+u.message+`
  - The latest FIDE (International Chess Federation) rules will be followed for any situations not covered in these regulations.
 
 Disclaimer: These rules and regulations are subject to change at the discretion of the tournament organizers. Any changes will be communicated to the players before the start of the event.
-`},3:{title:"KV's GOT TALENT",title2:"General Rules",GenerelRules:`1.Time limit - 90 Seconds
+`},3:{title:"KVP's GOT TALENT",title2:"General Rules",GenerelRules:`1.Time limit - 90 Seconds
 2.You can perform Anything , Any Genres (Just Show off your skills)
-3.No Vulgur or demeaning Actions , No comments on Department , Professors , Religion & Maintain Dignity (For Stand Up Comedy)
+3.No Vulgur or demeaning Actions , No comments.
 4.Judge's Decision will be Final
 5.You must Give a Prediction of your score before your performance , in order to match with the Judge's Average Score
 6.Any kind of Mischievous Behavior , will lead to on the spot Disqualification
@@ -148,7 +148,7 @@ Disclaimer: These rules and regulations are subject to change at the discretion 
 2. The event consists of 3 elimination-based rounds, progressing in difficulty.  
 3. Cheating or unsportsmanlike conduct will result in immediate disqualification.  
 4. The organizer's decision is final and cannot be challenged.  
-5. Participants must follow all instructions and complete tasks fairly to qualify for the next round.`},7:{title:"TREASURE FUSION",title2:"General Rules",GenerelRules:`1.Only duo entries will be considered.
+5. Participants must follow all instructions and complete tasks fairly to qualify for the next round.`},7:{title:"TREASURE THUNDER",title2:"General Rules",GenerelRules:`1.Only duo entries will be considered.
 2.There will be 3 rounds
 3.Participants must have internet access and required devices.  
 4.Follow the event timeline strictly.  
