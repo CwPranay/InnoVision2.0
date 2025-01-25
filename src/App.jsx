@@ -1,5 +1,5 @@
-import bgVideo from '../Resource/BG.mp4';
 import logo from "../Resource/InnoLogo.png";
+import bgVideo from '../Resource/BG.mp4';
 import React, { useState,useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import FF from "../Resource/FF.webp";
@@ -9,7 +9,7 @@ import 'swiper/css/effect-cards';
 import Swipe from "../Resource/Swipe.svg";
 import KVGT from "../Resource/KVGT.jpg";
 import SG from "../Resource/SaleGadget.jpg";
-import BB from "../Resource/BlindBizz.jpg";
+import BB from "../Resource/BlindVenture.jpg";
 import FunFusion from "../Resource/FunFusion.jpg";
 import TF from "../Resource/Treasure.jpg";
 import { EffectCards } from 'swiper/modules';
@@ -56,7 +56,7 @@ function App() {
 - All decisions made by the tournament organizers are final and binding.
 - Disputes or concerns must be raised immediately after the match ends.`,
     },
-    2: { title: "CHESS", title2: "General Rules", GenerelRules:`  
+    2: { title: "ONLINE CHESS", title2: "General Rules", GenerelRules:`  
 
 
 1. Platform and Time Control  
@@ -103,11 +103,11 @@ function App() {
 Disclaimer: These rules and regulations are subject to change at the discretion of the tournament organizers. Any changes will be communicated to the players before the start of the event.
 `  },
     3: {
-      title: "KV's GOT TALENT",
+      title: "KVP's GOT TALENT",
       title2: "General Rules",
       GenerelRules: `1.Time limit - 90 Seconds
 2.You can perform Anything , Any Genres (Just Show off your skills)
-3.No Vulgur or demeaning Actions , No comments on Department , Professors , Religion & Maintain Dignity (For Stand Up Comedy)
+3.No Vulgur or demeaning Actions , No comments.
 4.Judge's Decision will be Final
 5.You must Give a Prediction of your score before your performance , in order to match with the Judge's Average Score
 6.Any kind of Mischievous Behavior , will lead to on the spot Disqualification
@@ -119,7 +119,7 @@ Disclaimer: These rules and regulations are subject to change at the discretion 
 3. There will be 3 levels 
 4. You can use Language's (English, Marathi,Hindi)
 5. Judge's Decision will be Final` },
-    5: { title: "BLIND BLIZZ", title2:"General Rules", GenerelRules:`1.Computers with screens turned off will be provided.
+    5: { title: "BLIND VENTURE", title2:"General Rules", GenerelRules:`1.Computers with screens turned off will be provided.
 
 2.A time limit will be set for typing the paragraph (e.g., 2 minutes). Any content typed after the allotted time will not be considered.
 
@@ -144,7 +144,7 @@ Disclaimer: These rules and regulations are subject to change at the discretion 
 3. Cheating or unsportsmanlike conduct will result in immediate disqualification.  
 4. The organizer's decision is final and cannot be challenged.  
 5. Participants must follow all instructions and complete tasks fairly to qualify for the next round.` },
-    7: { title: "TREASURE FUSION", title2:"General Rules",GenerelRules:`1.Only duo entries will be considered.
+    7: { title: "TREASURE THUNDER", title2:"General Rules",GenerelRules:`1.Only duo entries will be considered.
 2.There will be 3 rounds
 3.Participants must have internet access and required devices.  
 4.Follow the event timeline strictly.  
@@ -287,7 +287,18 @@ Disclaimer: These rules and regulations are subject to change at the discretion 
               <SwiperSlide className="hover:drop-shadow-[0_0_10px_rgb(0,255,255)] drop-shadow-[0_0_5px_rgb(0,255,255)]" onClick={() => handleCardClick(9)}><img src={BondB} alt="" /></SwiperSlide>
            
             </Swiper>
+           
+           
+            <div className="absolute gap-3 bottom-[100px] flex-col left-0 w-full flex justify-center">
+              <h1 className="typing-heading md:mr-20  kanit-semibold uppercase text-2xl sm:text-2xl md:text-2xl lg:text-1xl font-bold font-monospace text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-500 drop-shadow-[0_0_05px_rgb(0,255,255)]">
+                SWIPE LEFT
+              </h1>
+              
+            </div>
+          
           </div>
+          
+          
         </>
       ) : (
         <div className="h-screen flex flex-col overflow-auto justify-start items-center text-white bg-black relative">
