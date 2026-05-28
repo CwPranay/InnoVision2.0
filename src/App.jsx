@@ -302,7 +302,7 @@ Disclaimer: These rules and regulations are subject to change at the discretion 
         </>
       ) : (
         <div className="h-screen flex flex-col overflow-auto justify-start items-center text-white bg-black relative">
-          <button onClick={handleBackClick} className="px-4 py-2 hover:text-white hover:drop-shadow-[0_0_5px_rgb(0,255,255)] bg-cyan-500 text-gray-800 kanit-semibold rounded-md hover:bg-cyan-600 absolute top-4 left-4">Back</button>
+          <button onClick={handleBackClick} className="px-4 py-2 hover:text-white hover:drop-shadow-[0_0_5px_rgb(0,255,255)] bg-cyan-500 text-gray-900 kanit-semibold rounded-md hover:bg-cyan-600 absolute top-4 left-4">Back</button>
           <div className="flex flex-col items-center justify-start w-full p-9 overflow-y-auto">
             <h1 className="text-3xl mt-9 kanit-semibold md:text-4xl font-bold mb-4 text-center">{cardDetails[selectedCard]?.title}</h1>
             <div className="w-full max-w-3xl text-left">
